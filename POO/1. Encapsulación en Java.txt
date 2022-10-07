@@ -1,0 +1,76 @@
+/*PARA EXPLICAR LA ENCAPSULACIÓN HE ESCOGIDO UN EJEMPLO VISTO EL AÑO PASADO COMO INTRODUCCIÓN A LA POO.
+PODEMOS VER COMO LA CLASE EMPLEADO DISPONE DE VARIOS ATRIBUTOS PRIVADOS (ENCAPSULADOS) A LOS QUE ACCEDEREMOS 
+CON SUS PROPIOS METODOS GETTERS PARA OBTENER SU INFORMACIÓN Y SETTERS PARA MODIFICARLA*/
+
+public class Empleado {
+   
+    // Atributos
+
+    private String nif;
+    private String nombre;
+    private int sueldo ;
+    private int horasextra;
+    private float irpf;
+    private boolean casado;
+    private int numhijos;
+    private static int importehoraextra;
+
+// Getters (Permiten obtener el atributo correspondiente guardado en un objeto empleado)
+    public String getNif() {
+        return nif;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getSueldo() {
+        return sueldo;
+    }
+
+    public int getHorasextra() {
+        return horasextra;
+    }
+
+    public float getIrpf() {
+        return irpf;
+    }
+
+    public int getNumhijos() {
+        return numhijos;
+    }
+
+    public boolean isCasado() {
+        return casado;
+    }
+
+    // SETTERS (Permiten modificar los valores guardados en cada atributo del objeto)
+    public void setNif(String nif) {
+        this.nif = nif;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+ 
+    public void setSueldo(int sueldo) {
+        this.sueldo = sueldo;
+    }
+
+    public void setHorasextra(int horasextra) {
+        this.horasextra = horasextra;
+    }
+
+    public void setIrpf(float irpf) {
+        this.irpf = irpf;
+    }
+  
+    public void setCasado(boolean casado) {
+        this.casado = casado;
+    }
+
+    public void setNumhijos(int numhijos) {
+        this.numhijos = numhijos;
+    }
+
+	

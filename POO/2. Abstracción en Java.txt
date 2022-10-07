@@ -1,0 +1,96 @@
+/*La abstracción presenta algunas ventajas con respecto al encapsulamiento que son:
+
+Ventajas de la abstracción
+
+Reduce la complejidad de ver las cosas.
+Evita la duplicación de código y aumenta la reutilización.
+Ayuda a aumentar la seguridad de una aplicación o programa, ya que solo se proporcionan detalles importantes al usuario.
+
+La abstracción son comportamientos que comparten todos los objetos de un tipo. 
+Por ejemplo todos los vehiculos pueden acelerar,frenar...
+
+Para ver un ejemplo de esto usare un ejemplo del año pasado
+*/
+package lib;
+
+public class Vehiculo {
+   
+    // Atributos
+
+    private int numRuedas;
+    private int numPuertas;
+    public EnumCombustible combustible;
+
+    // Métodos
+
+    // Constructor --->Con los constructores podemos extraer distintos metodos de vehiculo y crear diferentes tipos de objetos
+    public Vehiculo(){
+        numRuedas = 0;
+        numPuertas = 0;
+        combustible = EnumCombustible.ENERGÍAOSCURA;
+    }
+
+    public Vehiculo(int numRuedas){
+        this.numRuedas = numRuedas;
+        numPuertas = 0;
+        combustible = EnumCombustible.ENERGÍAOSCURA;
+    }
+
+    public Vehiculo(int numRuedas, int numPuertas){
+        this.numRuedas = numRuedas;
+        this.numPuertas = numPuertas;
+        combustible = EnumCombustible.ENERGÍAOSCURA;
+    }
+
+    public Vehiculo(int numRuedas, int numPuertas, EnumCombustible combustible){
+        this.numRuedas = numRuedas;
+        this.numPuertas = numPuertas;
+        this.combustible = combustible;
+    }
+
+    public Vehiculo(EnumCombustible combustible){
+        numRuedas = 0;
+        numPuertas = 0;
+        this.combustible = combustible;
+    }
+
+
+    // Getters
+    public int getNumRuedas(){
+        return numRuedas;
+    }
+
+    public int getNumPuertas(){
+        return numPuertas;
+    }
+
+    // Setters
+
+    public void setNumPuertas(int numPuertas){
+        this.numPuertas = numPuertas;
+    }
+
+    // Funcionalidades
+
+    private void pulsarBotonDeArranque(){
+
+    }
+
+    public void arrancar(){
+        pulsarBotonDeArranque();
+    }
+
+    public String toString(){
+         return "Este vehículo tiene " +
+         numPuertas + " puertas y utiliza el combustible " +
+         combustible;
+     }
+
+}
+
+
+package lib;
+
+public enum EnumCombustible {
+    QUEROXENO, DIESEL, NITRÓGENO, GASOLINA, SOLAR, RADIACIÓN, URANIO, ENERGÍAOSCURA, ANTIMATERIA
+}

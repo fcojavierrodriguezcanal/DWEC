@@ -1,0 +1,4 @@
+public class equipo{
+String Nombre;
+String Numero;
+}
