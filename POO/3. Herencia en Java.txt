@@ -1,4 +1,60 @@
-public class equipo{
-String Nombre;
-String Numero;
+//En este ejemplo, tenemos la clase animal de la cual sus clases hijas heredarán diversos atributos.
+
+public class Animal {
+    private String nombre;
+    private String tipo_alimentacion;
+    private int edad;
+    public Animal() {
+    }
+    public Animal(String nombre, String tipo_alimentacion, int edad){
+        this.nombre = nombre;
+        this.tipo_alimentacion = tipo_alimentacion;
+        this.edad = edad;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public String getTipo_alimentacion() {
+        return tipo_alimentacion;
+    }
+    public void setTipo_alimentacion(String tipo_alimentacion) {
+        this.tipo_alimentacion = tipo_alimentacion;
+    }
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    public String toString(){
+        
+        return this.nombre + ", " + this.tipo_alimentacion + ", " + this.edad;
+    }
+}
+
+			----*----
+//La clase mamífero extiende de animal
+
+public class Mamifero extends Animal{
+    private int gestacion;
+    public Mamifero() {
+        super();
+    }
+    public Mamifero(String nombre, String tipo_alimentacion, int edad, int gestacion) {
+        super(nombre, tipo_alimentacion, edad);
+        this.gestacion = gestacion;
+    }
+    public int getGestacion(){
+        return this.gestacion;
+    }
+    public void setGestacion(int gestacion){
+        this.gestacion = gestacion;
+    }
+    public String toString() {
+        
+        return super.toString() + ", " + this.gestacion;
+    }
 }
