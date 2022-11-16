@@ -1,0 +1,180 @@
+{
+
+"paises":
+   [ 
+  {
+    "País": "Afghanistan",
+    "capital": "Kabul"
+  },
+  {
+    "País": "Albania",
+    "capital": "Tirana"
+  },
+
+  {
+    "País": "Andorra",
+    "capital": "Andorra la Vella"
+  },
+
+  {
+    "País": "Armenia",
+    "capital": "Yerevan"
+  },
+
+  {
+    "País": "Austria",
+    "capital": "Viena"
+  },
+
+  {
+    "País": "Belgica",
+    "capital": "Bruselas"
+  },
+ 
+  {
+    "País": "Bosnia and Herzegovina",
+    "capital": "Sarajevo"
+  },
+
+  {
+    "País": "Bulgaria",
+    "capital": "Sofia"
+  },
+
+
+  {
+    "País": "Croacia",
+    "capital": "Zagreb"
+  },
+
+  {
+    "País": "Chipre",
+    "capital": "Nicosia"
+  },
+
+  {
+    "País": "Dinamarca",
+    "capital": "Copenague"
+  },
+
+  {
+    "País": "Estonia",
+    "capital": "Tallin"
+  },
+
+  {
+    "País": "Finlandia",
+    "capital": "Helsinki"
+  },
+
+  {
+    "País": "France",
+    "capital": "Paris"
+  },
+
+  {
+    "País": "Alemania",
+    "capital": "Berlin",
+  },
+
+  {
+    "País": "Gibraltar",
+    "capital": "Gibraltar"
+  },
+
+  {
+    "País": "Grecia",
+    "capital": "Atenas"
+  },
+
+  {
+    "País": "Groenlandia",
+    "capital": "Nuuk"
+  },
+ 
+  {
+    "País": "Irlanda",
+    "capital": "Dublin",
+  },
+ 
+  {
+    "País": "Italia",
+    "capital": "Roma"
+  },
+  
+  {
+    "País": "Paises Bajos",
+    "capital": "Amsterdam"
+  },
+ 
+  {
+    "País": "Noruega",
+    "capital": "Oslo"
+  },
+  
+  {
+    "País": "Polonia",
+    "capital": "Varsovia"
+  },
+
+  {
+    "País": "Portugal",
+    "capital": "Lisboa"
+  },
+
+  {
+    "País": "Romania",
+    "capital": "Bucarest"
+  },
+
+  {
+    "País": "Rusia",
+    "capital": "Moscú"
+  },
+
+  {
+    "País": "Serbia",
+    "capital": "Belgrado"
+  },
+
+  {
+    "País": "Eslovaquia",
+    "capital": "Bratislava"
+  },
+
+  {
+    "País": "Eslovenia",
+    "capital": "Ljubljana"
+  },
+
+  {
+    "País": "España",
+    "capital": "Madrid"
+  },
+ 
+  {
+    "País": "Suecia",
+    "capital": "Estocolmo"
+  },
+
+  {
+    "País": "Suiza",
+    "capital": "Berna"
+  },
+
+  {
+    "País": "Ucrania",
+    "capital": "Kiev"
+  },
+
+  {
+    "País": "Reino Unido",
+    "capital": "Londres"
+  },
+
+  {
+    "País": "Ciudad del Vaticano",
+    "capital": "Ciudad del Vaticano"
+  },
+   ]
+}

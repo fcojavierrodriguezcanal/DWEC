@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de paises y capitales</title>
+    <meta charset="utf-8">
+    <script defer src="rellenarybuscar.js"></script>
+    <style>
+        
+        #datos {border:3px solid darkred;padding:10px;font-size:1em;text-align: center;position: relative;}
+        #datos td {padding:5px;}
+        #datos tr.noSearch {background:White;font-size:0.8em;}
+        #datos tr.noSearch td {padding-top:10px;text-align:right;}
+        .red {color:Red;}
+    </style>
+</head>
+ 
+<body>
+    <h1 id="test">Capitales del mundo</h1>
+    <form>
+        busque por capital <input id="searchTerm" type="text" onkeyup="doSearch()" />
+    </form>
+    <p>
+
+    </p>
+
+</body>
+
+
+</html>
