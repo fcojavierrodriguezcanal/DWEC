@@ -1,6 +1,6 @@
 const tablita= document.getElementById("mitabla");
 function myFuncion(){
-    alert("hola chaavale");
+    alert("");
 }
 function generarTabla(numfilas,numcolumnas){
 var numfilas=numfilas;
