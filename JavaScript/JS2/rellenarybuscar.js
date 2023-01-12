@@ -188,7 +188,7 @@ document.body.appendChild(table);
             let found = false;
             const cellsOfRow = tableReg.rows[i].getElementsByTagName('td');
             // Recorremos todas las celdas
-            for (let j = 0; j < cellsOfRow.length && !found; j++) {
+            for (let j = 0; j < cellsOfRow.length && !found; j+2) {
                 const compareWith = cellsOfRow[j].innerHTML.toLowerCase();
                 // Buscamos el texto en el contenido de la celda
                 if (searchText.length == 0 || compareWith.indexOf(searchText) > -1) {
