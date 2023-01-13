@@ -3,11 +3,11 @@
   "version": 1,
   "cli": {
     "packageManager": "npm",
-    "analytics": "657e6bff-fc0f-43eb-b0e0-307ed49b065a"
+    "analytics": "1c9e1949-e646-48ed-8ff4-35b92abdf300"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angularUno": {
+    "angularuno": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-uno",
+            "outputPath": "dist/angularuno",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angularUno:build:production"
+              "browserTarget": "angularuno:build:production"
             },
             "development": {
-              "browserTarget": "angularUno:build:development"
+              "browserTarget": "angularuno:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularUno:build"
+            "browserTarget": "angularuno:build"
           }
         },
         "test": {
