@@ -8,6 +8,11 @@ import { RegisterComponent } from './register/register.component';
 import { RecordarcontraComponent } from './recordarcontra/recordarcontra.component';
 import { ElinicioComponent } from './elinicio/elinicio.component';
 import { VerificarcuentaComponent } from './verificarcuenta/verificarcuenta.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
+import { RecordarcontraPageComponent } from './recordarcontra-page/recordarcontra-page.component';
+import { VerificarcuentaPageComponent } from './verificarcuenta-page/verificarcuenta-page.component';
+import { ElinicioPageComponent } from './elinicio-page/elinicio-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { VerificarcuentaComponent } from './verificarcuenta/verificarcuenta.comp
     RegisterComponent,
     RecordarcontraComponent,
     ElinicioComponent,
-    VerificarcuentaComponent
+    VerificarcuentaComponent,
+    LoginPageComponent,
+    RegisterPageComponent,
+    RecordarcontraPageComponent,
+    VerificarcuentaPageComponent,
+    ElinicioPageComponent
   ],
   imports: [
     BrowserModule,

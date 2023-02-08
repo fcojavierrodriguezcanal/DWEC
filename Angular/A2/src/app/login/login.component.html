@@ -19,10 +19,13 @@
           <input type="password" class="form-control" placeholder="Password" required>
         </div>
         <br>
-        <input type="submit" onclick="" class="btn btn-success w-100" value="Login">
+        <input type="submit" onclick="" [routerLink]="['/inicioPage']" class="btn btn-success w-100" value="Login">
       </form>
       <br>
-      <div>¿No estás registrado? <a href="#mov">¡Registrate ahora!</a></div>
+      <div>¿No estás registrado?<a [routerLink]="['/registerPage']">Registrate aqui</a>
+        <div>¿Se te ha olvidado la contraseña?<a [routerLink]="['/recordarcontraPage']">Recuperala aqui</a>
+
+      </div>
     </div>
   </div>
 </div>
