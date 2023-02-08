@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
+import { RecordarcontraComponent } from './recordarcontra/recordarcontra.component';
+import { ElinicioComponent } from './elinicio/elinicio.component';
+import { VerificarcuentaComponent } from './verificarcuenta/verificarcuenta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    RecordarcontraComponent,
+    ElinicioComponent,
+    VerificarcuentaComponent
   ],
   imports: [
     BrowserModule,
