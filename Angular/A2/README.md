@@ -1,27 +1,18 @@
 # A2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+##  ¿QUE SE VA A HACER?
 
-## Code scaffolding
+Realizaremos la conexión entre los componentes login, register, verificar cuenta, inicio y recuperar contraseña cada uno enlazado a paginas independientes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##  ¿COMO SE VA A HACER?
 
-## Build
+Haremos uso de la herramienta angular con el uso de router link y router outlet para enlazar los componentes entre sí además de usar el app routing module para especificar como se van a llamar las rutas de cada una de las páginas. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Al inicio se redireccionará al login, desde donde podremos acceder al inicio si es que disponemos de una cuenta y contraseña. Desde el inicio se podrá retornar a la vista login en el caso de que el usuario quiera cerrar su sesión.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Desde el login tambien podremos acceder a la pagina de recuperacion de contraseña, que una vez especificado un correo, se podrá volver a la página de login nuevamente.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Por ultimo tambien tendremos la opcion de registrarnos desde la pagina de login. Esta pagina de registro nos llevará a su vez a una nueva pagina donde el usuario debe verificar su cuenta finalmente. Una vez verificada, el usuario podrá volver a la sesion login para hacer uso de su cuenta y entrar al inicio.
