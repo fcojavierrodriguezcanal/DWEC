@@ -3,8 +3,8 @@
 <input type="submit" [routerLink]="['/loginPage']" onclick="" class="btn btn-success w-100" value="Volver a inicio de sesión">
 <br>
 <br>
-<select name="pokemons" id="pokemons">
-  <option value="hierba">hierba</option>
-  <option value="fuego" selected>fuego</option>
-  <option value="agua">agua</option>
+<select onchange="changepokemons($event)" name="pokemons" id="pokemons"><!--Hacer que el select cambie algun valor de algun atributo del select-->
+  <option value="12">hierba</option>
+  <option value="10" selected>fuego</option>
+  <option value="11">agua</option>
 </select>
