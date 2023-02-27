@@ -3,8 +3,22 @@
 <input type="submit" [routerLink]="['/loginPage']" onclick="" class="btn btn-success w-100" value="Volver a inicio de sesión">
 <br>
 <br>
-<select onchange="changepokemons($event)" name="pokemons" id="pokemons"><!--Hacer que el select cambie algun valor de algun atributo del select-->
+<select (change)="changePokemons($event)" name="pokemons" id="pokemons"><!--Hacer que el select cambie algun valor de algun atributo del select-->
   <option value="12">hierba</option>
   <option value="10" selected>fuego</option>
   <option value="11">agua</option>
 </select>
+<br>
+<table>
+  <br>
+  <h1>Los pokemons</h1>
+  <tr *ngFor="let index of items">
+    <td>
+      {{index.pokemon.name}}
+            
+  </td>
+  <td>
+    {{index.pokemon.url}}
+  </td>
+    </tr>
+</table>

@@ -7,6 +7,7 @@ import { ElinicioComponent } from './Components/elinicio/elinicio.component';
 import { ElinicioPageComponent } from './pages/elinicio-page/elinicio-page.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PokemonComponent } from './pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AppRoutingModule } from './app-routing.module';
     LoginComponent,
     ElinicioComponent,
     ElinicioPageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
